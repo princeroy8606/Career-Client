@@ -1,0 +1,355 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+
+.Career-page {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Career-Nav {
+  width: calc(100% - 200px);
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-headers {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  /* background-color: #d59292; */
+}
+.navbar-headers h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #707070;
+}
+
+.Contact-btn {
+  width: 9.25rem;
+  height: 2.563rem;
+  background-color: #0097ff;
+  border-radius: 1.281rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Contact-btn h3 {
+  text-align: center;
+  color: white;
+}
+.career-mid {
+  width: calc(100% - 200px);
+  display: flex;
+  justify-content: space-between;
+}
+.Career-mid-text {
+  width: 40%;
+  display: flex;
+  align-items: center;
+}
+
+.Career-mid-text h4 {
+  font-size: 1.625rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+}
+
+.Career-search-container {
+  width: calc(100% - 200px);
+  height: fit-content;
+  margin-top: 6.25rem;
+}
+.search-area-header {
+  width: 100%;
+}
+.search-area-header h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.search-area-header h5 {
+  text-align: center;
+  font-size: 1.625rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+  line-height: 39px;
+  margin-top: 2.5rem;
+  margin-bottom: 3.25rem;
+}
+
+.search-area {
+  width: 100%;
+  height: 51.5rem;
+  box-sizing: border-box;
+  border: 1px solid #e0e0e0;
+  overflow-y: scroll;
+  padding: 2.5rem;
+}
+.search-box-conatiner {
+  width: 100%;
+  height: 6.563rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.search-input {
+  width: 25%;
+  height: 100%;
+}
+
+::placeholder {
+  color: #d0d0d0;
+}
+
+.search-input input,
+select {
+  width: 100%;
+  height: 4.375rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-top: 0.313rem;
+}
+
+.search-input h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #707070;
+}
+
+option:checked {
+  color: #000000;
+}
+select {
+  color: #d0d0d0;
+}
+.search-btn {
+  width: 4.813rem;
+  height: 4.375rem;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+}
+
+.jobs-container {
+  height: 5rem;
+}
+.job-container {
+  width: 100%;
+  height: 7.5rem;
+  margin-bottom: 2.5rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  font-family: "Poppins";
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+}
+
+.job-details {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background: yellow; */
+}
+.loc-exp-continer {
+  display: flex;
+  justify-content: space-between;
+}
+.loc-exp {
+  display: flex;
+  align-items: center;
+}
+
+.loc-exp h4 {
+  color: #707070;
+  font-weight: 500;
+  font-size: 22px;
+}
+.job-details h3 {
+  font-weight: 500;
+  font-size: 26px;
+}
+.loc-exp img {
+  width: 1rem;
+  height: 1.1rem;
+  margin-right: 1rem;
+}
+
+.jobDetails-Btn-conatainer {
+  width: 15%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobDetails-Btn {
+  width: 11.063rem;
+  height: 3.5rem;
+  background: blue;
+  color: white;
+  background: #0097ff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobDetails-Btn h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.footer-container {
+  width: 100%;
+  height: 25.5rem;
+  background: #055389;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: "Poppins";
+  padding: 1.85rem 6.25rem 1.85rem 6.25rem;
+}
+
+.footer-left-container {
+  width: 35%;
+}
+.footer-left-container h2 {
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+.signup-container h3 {
+  font-weight: 500;
+  font-size: 24px;
+}
+.singnup {
+  width: 100%;
+  display: flex;
+  height: 2.813rem;
+  justify-content: flex-end;
+}
+
+.singnup input {
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  padding-left: 1rem;
+}
+.singup-btn {
+  position: absolute;
+  width: 6.46rem;
+  height: 2.48rem;
+  background: #02365a;
+  border-radius: 0px 10px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  align-self: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.singup-btn h3 {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.signup-container h4 {
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 2rem;
+}
+
+.signup-container h5 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.app-download {
+  width: 65%;
+  margin-top: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer-right-container {
+  width: 50%;
+  height: 80%;
+}
+
+.footer-right-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.general-info h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.general-info ul {
+  list-style: none;
+}
+
+.general-info li {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 1.25rem;
+}
+.conatct-us {
+  width: 35%;
+}
+.conatct-us li {
+  display: flex;
+  font-weight: 600;
+  font-size: 14px;
+}
+.conatct-us img {
+  width: 1.8rem;
+  height: 1.5rem;
+}
+.Follow-link-container {
+  width: 35%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Follow-link-container  h2{
+    font-weight: 600;
+    font-size: 24px;
+}
