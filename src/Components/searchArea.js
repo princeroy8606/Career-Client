@@ -76,7 +76,7 @@ const SearchArea = () => {
 
   const fetchAllJobs = async () => {
     try {
-      const response = await fetch("http://localhost:3000/jobs");
+      const response = await fetch("https://careerserver-production.up.railway.app/jobs");
       const data = await response.json();
       console.log(data);
       setJobList(data);
