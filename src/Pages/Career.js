@@ -14,7 +14,7 @@ const Career = () => {
         </div>
         <div className="navbar-headers">
           <h3>Home</h3>
-          <h3>Career</h3>
+          <h3 className="selected" style={{color:"#0097ff"}}>Career</h3>
           <h3>About</h3>
           <h3>Who we're</h3>
           <h3>What we do</h3>

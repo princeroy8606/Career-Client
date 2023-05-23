@@ -34,6 +34,10 @@
   color: #707070;
 }
 
+.selected{
+  border-bottom:3px solid #0097ff ;
+}
+
 .Contact-btn {
   width: 9.25rem;
   height: 2.563rem;

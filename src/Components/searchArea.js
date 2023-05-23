@@ -102,7 +102,7 @@ const SearchArea = () => {
             <option value="" disabled selected>
               Select Location
             </option>
-            {citiesInIndia.map((item) => (
+            {citiesInIndia?.map((item) => (
               <option key={item.name} value={item.name}>
                 {item.name}
               </option>
@@ -113,7 +113,7 @@ const SearchArea = () => {
           <img src={Icon} alt="search-icon" />
         </div>
       </div>
-      {jobList.map((job) => (
+      {jobList?.map((job) => (
         // <div className="jobs-container">
           <div className="job-container">
             <div className="job-details">
