@@ -8,7 +8,6 @@ import { useState } from "react";
 const SearchArea = () => {
   const [jobList, setJobList] = useState([]);
   const [title, setTitle] = useState("");
-  const [error, setError] = useState(null);
   const [selectedLocation, setSelectedLocation] = useState("");
   const [selectedDepartment, setSelectedDepartment] = useState("");
   const requestBody = {
@@ -48,7 +47,7 @@ const SearchArea = () => {
   const handleSubmit = () => {
     setHeight(true);
     if (requestBody.department === "" || requestBody.location === "") {
-      setError("error");
+        console.log("fill all details")
     } else {
       fetchData();
     }
@@ -72,13 +71,12 @@ const SearchArea = () => {
       setJobList(data);
     } catch (err) {
       console.log(err);
-      setError(err);
     }
   };
 
   const fetchAllJobs = async () => {
     try {
-      const response = await fetch("https://careerserver-production.up.railway.app/jobs");
+      const response = await fetch("http://localhost:3000/jobs");
       const data = await response.json();
       console.log(data);
       setJobList(data);
