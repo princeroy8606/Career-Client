@@ -30,7 +30,7 @@ const SearchArea = () => {
   ];
 
   const [Height, setHeight] = useState(false);
-  const heihtControl = Height ? { height: "51.5rem" } : { height: "51.5rem" };
+  const heihtControl = Height ? { height: "51.5rem" } : { height: "50.5rem" };
 
   const handleTitle = (e) => {
     setTitle(e.target.value);
@@ -145,7 +145,7 @@ const SearchArea = () => {
                 <h4>{job.location}</h4>
               </div>
               <div className="loc-exp">
-                <img src={Experience} alt="experience-icon" />
+                <img src={Experience} alt="experience-icon"/>
                 <h4>{job.experience}years</h4>
               </div>
             </div>
